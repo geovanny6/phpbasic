@@ -10,7 +10,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1>listado</h1>
+                <h1>Listado</h1>
+                <h4>Proudvots disponibles para ser exportados en pdf</h4>
                 <?php 
 
                 foreach ($products as $product) {
@@ -21,6 +22,7 @@
                 ?>
                 <hr>
                 <p><a href="pdf.php">Exportar en pdf</a></p>
+                <span class="author">GEovanny Orellana</span>
             </div>
         </div>
     </div>
